@@ -1,6 +1,5 @@
 [build]
   command = "cd src/vanilla && yarn install && yarn build"
-  publish = "src/vanilla/dist"
   command = "npm run build"
   publish = "public"
   functions = "netlify/functions"
