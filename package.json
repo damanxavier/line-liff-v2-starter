@@ -9,5 +9,8 @@
   "keywords": [
     "LINE",
     "LIFF"
-  ]
+  ],
+  "scripts": {
+    "build": "echo 'No build needed'"
+  }
 }
