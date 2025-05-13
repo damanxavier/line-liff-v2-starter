@@ -1,4 +1,6 @@
 // netlify/functions/lineWebhook.js
+const secret = process.env.LINE_CHANNEL_SECRET;
+const token = process.env.LINE_ACCESS_TOKEN;
 
 const crypto = require("crypto");
 
